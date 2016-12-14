@@ -1,0 +1,32 @@
+PODS:
+  - B_Middleware (1)
+  - CTMediator (0.0.2)
+  - HandyFrame (1.1.2)
+  - Login (1)
+  - Login_middleware (1)
+
+DEPENDENCIES:
+  - B_Middleware (from `../B_Middleware`)
+  - CTMediator
+  - HandyFrame
+  - Login (from `../Login`)
+  - Login_middleware (from `../Login_middleware`)
+
+EXTERNAL SOURCES:
+  B_Middleware:
+    :path: "../B_Middleware"
+  Login:
+    :path: "../Login"
+  Login_middleware:
+    :path: "../Login_middleware"
+
+SPEC CHECKSUMS:
+  B_Middleware: 12d458bfedd8587f0a318269cefea6915ecca876
+  CTMediator: da466319e36f9e0d033af4769c0741d04c6b14c5
+  HandyFrame: d505faced4d4fb820d66bd88b654dbf7b88da424
+  Login: 9225b430bdbbe288a4fc90c473f3381c03786aa8
+  Login_middleware: 940b31e4ddf985faaa0555633ed6bdf5e0fb7637
+
+PODFILE CHECKSUM: e71d0e369e5dedc5864b9383ef0a436ad1b229ea
+
+COCOAPODS: 1.2.0.beta.1

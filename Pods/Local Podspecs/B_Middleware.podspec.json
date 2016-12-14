@@ -1,0 +1,23 @@
+{
+  "name": "B_Middleware",
+  "version": "1",
+  "summary": "B_Middleware.",
+  "description": "this is B_Middleware",
+  "homepage": "https://github.com/moduleDemo/B_middleware",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/moduleDemo/B_middleware.git",
+    "tag": "1"
+  },
+  "source_files": "B_Middleware/B_Middleware/**/*.{h,m}",
+  "requires_arc": true
+}

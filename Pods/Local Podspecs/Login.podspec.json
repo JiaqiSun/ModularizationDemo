@@ -1,0 +1,23 @@
+{
+  "name": "Login",
+  "version": "1",
+  "summary": "Login.",
+  "description": "this is Login",
+  "homepage": "https://github.com/moduleDemo/Login",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/moduleDemo/Login.git",
+    "tag": "1"
+  },
+  "source_files": "Login/Login/**/*.{h,m}",
+  "requires_arc": true
+}

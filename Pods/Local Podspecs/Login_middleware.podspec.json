@@ -1,0 +1,23 @@
+{
+  "name": "Login_middleware",
+  "version": "1",
+  "summary": "Login_middleware.",
+  "description": "this is Login_middleware",
+  "homepage": "https://github.com/moduleDemo/Login_middleware",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/moduleDemo/Login_middleware.git",
+    "tag": "1"
+  },
+  "source_files": "Login_middleware/Login_middleware/**/*.{h,m}",
+  "requires_arc": true
+}

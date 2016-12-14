@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/B_Middleware" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/HandyFrame" "${PODS_ROOT}/Headers/Public/Login" "${PODS_ROOT}/Headers/Public/Login_middleware"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/B_Middleware" "$PODS_CONFIGURATION_BUILD_DIR/CTMediator" "$PODS_CONFIGURATION_BUILD_DIR/HandyFrame" "$PODS_CONFIGURATION_BUILD_DIR/Login" "$PODS_CONFIGURATION_BUILD_DIR/Login_middleware"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/B_Middleware" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/HandyFrame" -isystem "${PODS_ROOT}/Headers/Public/Login" -isystem "${PODS_ROOT}/Headers/Public/Login_middleware"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"B_Middleware" -l"CTMediator" -l"HandyFrame" -l"Login" -l"Login_middleware" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
