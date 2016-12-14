@@ -10,9 +10,7 @@ target 'MainProject' do
  
   # Private Pods
   pod 'HandyFrame'
-  pod 'CTMediator'
-  pod "Login_middleware", :path => "../Login_middleware"
-  pod "Login", :path => "../Login"
-  pod "B_Middleware", :path => "../B_Middleware"
+  pod "Login_middleware"
+  pod "Login"
 
 end
